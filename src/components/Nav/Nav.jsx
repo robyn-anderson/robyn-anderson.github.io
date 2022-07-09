@@ -5,7 +5,8 @@ import './Nav.css'
 function Nav() {
 
     let activeStyle = {
-        textDecoration: 'underline',
+        fontStyle: 'italic',
+        textDecoration: 'none',
         color: '#e5d0e3',
         pointerEvents: 'none'
     }
@@ -13,7 +14,6 @@ function Nav() {
     let inactiveStyle = {
         textDecoration: 'none',
     }
-
 
   return (
     <nav>

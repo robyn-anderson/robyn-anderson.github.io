@@ -1,0 +1,22 @@
+.demos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2vw auto;
+}
+
+figcaption {
+    width: 340px;
+    background:rgba(255,255,255, 0.75);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+figcaption a {
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    color: #fe6d73;
+}

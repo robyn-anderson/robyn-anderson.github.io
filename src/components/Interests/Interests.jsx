@@ -3,7 +3,7 @@ import React from 'react'
 function Interests() {
   return (
     <>
-        <h1>Interests</h1>
+        <h1><em>Interests</em></h1>
     </>
   )
 }

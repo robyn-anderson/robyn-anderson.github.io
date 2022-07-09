@@ -7,8 +7,21 @@ import Projects from './components/Projects/Projects';
 import Interests from './components/Interests/Interests';
 import Work from './components/Work/Work';
 import Footer from './components/Footer/Footer';
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
+
+  const [ form, setForm ] = useState(false)
+
+  function handleClick() {
+    if (form === true) {
+      setForm(false)
+    }
+    else {
+      setForm(true)
+    }
+  }
+
   return (
     <>
     <Nav />
@@ -21,6 +34,8 @@ function App() {
         <Route path='/interests' element={ <Interests /> } />
       </Routes>
       </div>
+      <button onClick={handleClick} className='contact-button'>Contact Me</button>
+      <ContactForm form={form} handleClick={handleClick}/>
     </main>
     <Footer />
   </>

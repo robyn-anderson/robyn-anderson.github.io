@@ -1,0 +1,33 @@
+.profile-photo {
+    height: 350px;
+    width: 300px;
+    margin-right: 2vw;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px transparent;
+    box-shadow: 10px 10px 40px -10px black;
+}
+
+@media screen and (max-width: 600px) {
+    .profile-photo {
+        height: 250px;
+        width: 200px;
+        margin-right: 2vw;
+        object-fit: cover;
+    }
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 2vw auto;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+        width: 95%;
+        margin: 1vw auto;
+    }
+}
