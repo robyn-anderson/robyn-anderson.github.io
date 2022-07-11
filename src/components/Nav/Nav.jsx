@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './Nav.css'
 
 function Nav() {
+  // Nav bar with styling for active/inactive status
 
     let activeStyle = {
         textDecoration: 'none',

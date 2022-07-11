@@ -3,6 +3,8 @@ import './Work.css'
 import resumePDF from '../../assets/anderson-robyn-resume.pdf'
 
 function Work() {
+// Resume and download for resume PDF
+
   return (
     <>
         <h1><em>Work History</em></h1>

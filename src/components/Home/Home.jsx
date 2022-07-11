@@ -3,6 +3,8 @@ import profilePhoto from '../../assets/profile-photo.jpeg'
 import './Home.css'
 
 function Home() {
+// Profile page with photo and some text.
+
   return (
     <>
         <h1><em>Profile</em></h1>

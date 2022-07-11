@@ -8,6 +8,7 @@ import bikingImg from '../../assets/biking.jpeg'
 import hikingImg2 from '../../assets/hiking2.jpeg'
 
 function Interests() {
+  // Images showing interests
   return (
     <>
         <h1><em>Interests</em></h1>

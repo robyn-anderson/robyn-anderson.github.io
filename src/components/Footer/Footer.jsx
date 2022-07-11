@@ -5,8 +5,7 @@ import gitHubLogo from '../../assets/GitHub-Mark-Light-32px.png'
 
 
 function Footer() {
-  
-  
+// Location, copyright, links to gitHub and LinkedIn  
 
   return (
    

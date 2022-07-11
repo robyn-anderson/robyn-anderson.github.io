@@ -11,6 +11,7 @@ import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
 
+  // Function for handling the contact form pop-up
   const [ form, setForm ] = useState(false)
 
   function handleClick() {
@@ -24,20 +25,20 @@ function App() {
 
   return (
     <>
-    <Nav />
+    <Nav /> {/* persistent nav bar */}
     <main>
       <div className='main-content'>
-      <Routes>
-        <Route path='/' element={ <Home /> } />
-        <Route path='/projects' element={ <Projects /> } />
-        <Route path='/work-history' element={ <Work /> } />
-        <Route path='/interests' element={ <Interests /> } />
+      <Routes> {/* Routes for navigation */}
+        <Route path='/' element={ <Home /> } /> {/* 'Home' is the Profile page */}
+        <Route path='/projects' element={ <Projects /> } /> {/* Clips and links to project repos */}
+        <Route path='/work-history' element={ <Work /> } /> {/* resume with option to download PDF */}
+        <Route path='/interests' element={ <Interests /> } /> {/* Images showing interests */}
       </Routes>
       </div>
       <button onClick={handleClick} className='contact-button'>Contact Me</button>
-      <ContactForm form={form} handleClick={handleClick}/>
+      <ContactForm form={form} handleClick={handleClick}/> {/* Opening and closing the contact form modal */}
     </main>
-    <Footer />
+    <Footer /> {/* persistent footer which holds copyright and linkedin and github links */}
   </>
   );
 }
