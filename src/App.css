@@ -6,7 +6,7 @@ html {
     background-size: cover;
 }
 .main-content {
-    margin: 2vw;
+    margin: 8vw 2vw 9vw 2vw;
     padding: 1vw;
     background:rgba(255,255,255, 0.4);
     border-radius: 20px;
@@ -21,10 +21,12 @@ h1 {
 .contact-button {
     padding: .75vw;
     margin: 1vw;
-    border-radius: 10px;;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 40px -10px black;
     font-size: 14pt;
-    background-color: #373f51;
-    color: #58a4b0;
+    background-color: #73d2de;
+    color: #218380;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -33,12 +35,12 @@ h1 {
 
 @media screen and (max-width: 800px) {
     .contact-button {
-        font-size: 12pt;
+        font-size: 11pt;
     }
 }
 
 @media screen and (max-width: 600px) {
     .contact-button {
-        font-size: 10pt;
+        font-size: 9pt;
     }
 }

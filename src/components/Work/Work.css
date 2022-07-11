@@ -3,3 +3,11 @@
     width: 90%;
     margin: 5vw auto;
 }
+
+.resume a {
+    margin: 0;
+}
+
+.resume a:hover {
+    color: #fe6d73;
+}

@@ -10,7 +10,8 @@ function Home() {
           <img className='profile-photo' src={profilePhoto} alt='Profile photo'/>
           <p>Cuddles are key to success.<br/><br/>
           As are perseverance, commitment, and attention to detail.<br/><br/>
-          I am currently enrolled in Burlington Code Academy's Software Development Bootcamp and am by turns fascinated and frustrated but always full of gratitude for the opportunity to sprint headlong into a new opportunity.</p>
+          I am currently enrolled in Burlington Code Academy's Software Development Bootcamp where I am by turns fascinated and frustrated but always full of gratitude for the opportunity to sprint headlong towards a new and exciting career path.
+          </p>
         </div>
     </>
   )

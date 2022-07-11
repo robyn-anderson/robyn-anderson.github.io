@@ -5,9 +5,8 @@ import './Nav.css'
 function Nav() {
 
     let activeStyle = {
-        fontStyle: 'italic',
         textDecoration: 'none',
-        color: '#e5d0e3',
+        color: '#ffbc42',
         pointerEvents: 'none'
     }
 

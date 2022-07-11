@@ -1,12 +1,15 @@
 nav {
+    position: fixed;
+    top: 0;
+    width: 98%;
     display: flex;
     justify-content: space-between;
-    background-color: #58a4b0;
+    background-color: #218380;
     box-shadow: 10px 10px 40px -10px black;
     padding: 2vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16pt;
-    color: #373f51;
+    color: #73d2de;
 }
 
 @media screen and (max-width: 800px) {
@@ -24,12 +27,12 @@ nav {
 }
 
 a {
-    color: #373f51;
+    color: #73d2de;
     margin: 0 2vw 0 2vw
 }
 
 a:hover {
-    color: #d8dbe2;
+    color: #8f2d56;
 }
 
 @media screen and (max-width: 600px) {

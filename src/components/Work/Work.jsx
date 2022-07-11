@@ -1,11 +1,13 @@
 import React from 'react'
 import './Work.css'
+import resumePDF from '../../assets/anderson-robyn-resume.pdf'
 
 function Work() {
   return (
     <>
         <h1><em>Work History</em></h1>
         <div className='resume'>
+          <a href={resumePDF} download>Download Resume</a>
           <h4>Strengths & Qualifications:</h4>
           <strong>Project Leader:</strong> Experienced in creating, monitoring, and managing short and long-term projects involving testing, technical analysis, and systems development.<br/>
           <strong>Coder:</strong>  Currently enrolled in Burlington Code Academy's Software Development Bootcamp.<br/>
