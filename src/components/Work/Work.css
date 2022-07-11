@@ -4,10 +4,21 @@
     margin: 5vw auto;
 }
 
-.resume a {
+#resume-button {
+    padding: .75vw;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 40px -10px black;
+    background-color: #73d2de;
+    color: #218380;
+    font-size: 12pt;
     margin: 0;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+
 }
 
-.resume a:hover {
+#resume-button:hover {
     color: #fe6d73;
 }

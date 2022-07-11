@@ -33,6 +33,10 @@ h1 {
     z-index: 1;
 }
 
+.contact-button:hover {
+    color: #fe6d73;
+}
+
 @media screen and (max-width: 800px) {
     .contact-button {
         font-size: 11pt;
