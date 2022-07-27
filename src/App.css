@@ -1,24 +1,31 @@
 * {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Fonts set globally */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 html {
+    /* Site background */
     background: url('./assets/mountain2.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
+
 .main-content {
+    /* Everything except nav and footer is contained in here */
     margin: 8vw 2vw 9vw 2vw;
     padding: 1vw;
-    background:rgba(255,255,255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
 }
 
 h1 {
+    /* Header text on every page is centered */
     text-align: center;
     font-size: 18pt;
     font-weight: 50;
 }
 
 .contact-button {
+    /* This button lives in the footer and opens the "contact me" form */
     padding: .75vw;
     margin: 1vw;
     border-radius: 10px;
@@ -34,16 +41,21 @@ h1 {
 }
 
 .contact-button:hover {
+    /* Hover style for "contact me" button */
     color: #fe6d73;
 }
 
 @media screen and (max-width: 800px) {
+
+    /* Contact button is sized with vw so font needs to shrink on smaller screens */
     .contact-button {
         font-size: 11pt;
     }
 }
 
 @media screen and (max-width: 600px) {
+
+    /* Contact button is sized with vw so font needs to shrink on smaller screens */
     .contact-button {
         font-size: 9pt;
     }

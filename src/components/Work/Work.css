@@ -1,10 +1,12 @@
 .resume {
+    /* This is the container for the plain-text resume */
     text-align: justify;
     width: 90%;
     margin: 5vw auto;
 }
 
 #resume-button {
+    /* Download button for resume near top of page */
     padding: .75vw;
     border-radius: 10px;
     border: none;
@@ -20,5 +22,6 @@
 }
 
 #resume-button:hover {
+    /* Hover style for resume download button */
     color: #fe6d73;
 }

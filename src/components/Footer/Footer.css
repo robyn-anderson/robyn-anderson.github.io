@@ -1,11 +1,12 @@
 footer {
+    /* Footer is on every page and fixed to the bottom with content aligned right */
     position: fixed;
     bottom: 0;
     width: 98%;
     background-color: #218380;
     box-shadow: 10px 10px 40px -10px black;
     padding: 2vw;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14pt;
     color: #73d2de;
     text-align: center;
@@ -14,6 +15,8 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+
+    /* Downsize font for smaller screens */
     footer {
         font-size: 12pt;
         padding: 1.5vw;
@@ -21,15 +24,19 @@ footer {
 }
 
 footer a {
+    /* Add margin between LinkedIn and GitHub linked logos */
     margin: 0 .75vw 0 0;
 }
 
 @media screen and (max-width: 600px) {
+
+    /* Downsize the margin between logos for smaller screens */
     footer a {
         margin-left: .5vw;
     }
 }
 
 .footer-text {
+    /* Space between footer text  and linked logos */
     margin: 0 1vw 0 0;
 }

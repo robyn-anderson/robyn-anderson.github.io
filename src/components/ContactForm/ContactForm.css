@@ -1,4 +1,5 @@
 #form-background {
+    /* The container for the pop-upp modal form */
     position: fixed;
     top: 0;
     left: 0;
@@ -6,8 +7,9 @@
     bottom: 0;
     background-color: rgba(100, 100, 100, 0.9);
 }
-    
+
 #form-content {
+    /* Align the form fields in a column */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,12 +23,14 @@
 }
 
 input {
+    /* Form input fields */
     text-align: center;
     width: 250px;
     margin: .5vw 0 2vw 0;
 }
 
 .form-submit {
+    /* Form "submit" button */
     width: 100px;
     height: 30px;
     border-radius: 10px;

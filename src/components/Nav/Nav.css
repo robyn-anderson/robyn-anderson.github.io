@@ -1,4 +1,5 @@
 nav {
+    /* Navbar is fixed to top of the page and set to display above anything else */
     position: fixed;
     top: 0;
     width: 98%;
@@ -7,13 +8,15 @@ nav {
     background-color: #218380;
     box-shadow: 10px 10px 40px -10px black;
     padding: 2vw;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16pt;
     color: #73d2de;
     z-index: 1;
 }
 
 @media screen and (max-width: 800px) {
+
+    /* Downsize for smaller screens */
     nav {
         font-size: 14pt;
         padding: 1.5vw;
@@ -21,6 +24,8 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+
+    /* Downsize for smaller screens */
     nav {
         font-size: 12pt;
         padding: 1vw;
@@ -28,15 +33,19 @@ nav {
 }
 
 a {
+    /* Navigation links */
     color: #73d2de;
     margin: 0 2vw 0 2vw
 }
 
 a:hover {
+    /* Navigation links on hover */
     color: #fe6d73;
 }
 
 @media screen and (max-width: 600px) {
+
+    /* Margin between navlinks for smaller screens */
     a {
         margin: 0 1vw 0 1vw;
     }

@@ -1,4 +1,5 @@
 .demos {
+    /* Container for all of the project demo videos needs to allow wrapping for responsiveness */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -6,17 +7,20 @@
 }
 
 figcaption {
+    /* Demo video descriptions */
     width: 340px;
-    background:rgba(255,255,255, 0.75);
+    background: rgba(255, 255, 255, 0.75);
     text-align: center;
     padding: 5px;
     border-radius: 10px;
 }
 
 figcaption a {
+    /* Demo video description link - no underline */
     text-decoration: none;
 }
 
 figcaption a:hover {
+    /* Demo video description link hover style */
     color: #fe6d73;
 }
