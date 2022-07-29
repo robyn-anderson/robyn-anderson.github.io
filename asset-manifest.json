@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b090f17.css",
+    "main.js": "/static/js/main.928bf3bc.js",
+    "static/js/787.e88677de.chunk.js": "/static/js/787.e88677de.chunk.js",
+    "static/media/hiking2.jpeg": "/static/media/hiking2.f5d08850e04d3b00c27f.jpeg",
+    "static/media/biking.jpeg": "/static/media/biking.938674959739b3a639f7.jpeg",
+    "static/media/mountain2.jpeg": "/static/media/mountain2.0a839389098717c714fc.jpeg",
+    "static/media/knitting.jpeg": "/static/media/knitting.6b41bd03683165c7ad2d.jpeg",
+    "static/media/skiing.jpeg": "/static/media/skiing.e61681354341d0bbc0fa.jpeg",
+    "static/media/baking.jpeg": "/static/media/baking.867a89afa475d26d5f19.jpeg",
+    "static/media/profile-photo.jpeg": "/static/media/profile-photo.0a85f9a0f6c6ac941e4c.jpeg",
+    "static/media/hiking.jpeg": "/static/media/hiking.5a1f4a627e801125da5d.jpeg",
+    "static/media/anderson-robyn-resume.pdf": "/static/media/anderson-robyn-resume.97453edb0bf5345ee015.pdf",
+    "index.html": "/index.html",
+    "main.2b090f17.css.map": "/static/css/main.2b090f17.css.map",
+    "main.928bf3bc.js.map": "/static/js/main.928bf3bc.js.map",
+    "787.e88677de.chunk.js.map": "/static/js/787.e88677de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b090f17.css",
+    "static/js/main.928bf3bc.js"
+  ]
+}
