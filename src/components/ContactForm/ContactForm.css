@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #73d2de;
+    opacity: 0.95;
     box-shadow: 10px 10px 40px -10px black;
     margin: 10% auto;
     border-radius: 10px;
@@ -26,7 +27,10 @@ input {
     /* Form input fields */
     text-align: center;
     width: 250px;
-    margin: .5vw 0 2vw 0;
+    height: 30px;
+    margin: 2vw 0 0 0;
+    border-radius: 5px;
+    border: outset #d8dbe2;
 }
 
 .form-submit {

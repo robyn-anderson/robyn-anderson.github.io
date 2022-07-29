@@ -1,16 +1,18 @@
 .interest-images {
   /* Display area for images wraps for smaller screens */
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 .interest-images img {
   /* Images display as circles */
-  width: 250px;
-  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   margin: 1vw;
   box-shadow: 10px 10px 40px -10px black;
+  position: relative;
+  width: 30vw;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
 }

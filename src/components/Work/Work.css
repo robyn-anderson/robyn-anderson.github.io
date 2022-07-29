@@ -7,7 +7,7 @@
 
 #resume-button {
     /* Download button for resume near top of page */
-    padding: .75vw;
+    padding: 1.2vw;
     border-radius: 10px;
     border: none;
     box-shadow: 10px 10px 40px -10px black;
@@ -16,7 +16,7 @@
     font-size: 12pt;
     margin: 0;
     position: absolute;
-    top: 15%;
+    top: 20vh;
     right: 5%;
 
 }
